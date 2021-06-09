@@ -1,0 +1,34 @@
+alias +skeet "playvol buttons/blip1 .3;+attack"
+    alias -skeet "-attack"
+    bind "mouse1" "+skeet"
+
+    alias +lever "playvol buttons/button17 .2"
+    //BOUND TO E ^^^
+    
+    alias +switch "playvol buttons/button18 .4"
+    //BOUND TO G ^^^
+    
+    alias +slow "playvol buttons/lever7 .1"
+    //BOUND TO SHIFT^^^
+
+    alias +low "playvol buttons/combine_button2 .1"
+    //BOUND TO CTRL^^^ 
+
+    alias +flip "playvol buttons/combine_button1 .2"
+    //BOUND TO Q^^^
+
+    alias +swipe "playvol buttons/button9 .1"
+    //BOUND TO T ^^^
+    
+    
+    //VIEWMODEL
+ 
+    viewmodel_offset_x 2
+    viewmodel_offset_y 2
+    viewmodel_offset_z -2
+    viewmodel_fov 68
+    cl_righthand 0
+    cl_bobcycle 0
+    cl_bobamt_vert 0
+    cl_bob_lower_amt 0
+    cl_bobamt_lat 0
